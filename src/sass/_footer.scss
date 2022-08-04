@@ -1,0 +1,43 @@
+.footer {
+    background-color: #00093C;
+    height: 560px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 70px 370px 5px 370px;
+    }
+    &__column {
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        h2 {
+            margin-bottom: 16px;
+        }
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            color: white;
+            line-height: 2.5;
+            font-size: 14px;
+            font-weight: normal;
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+#oneColumn {
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    img {
+        width: 83px;
+        height: 58px;
+        margin-bottom: 43px;
+    }
+    span {
+        margin-bottom: 12px;
+        margin-top: 12px;
+    }
+}

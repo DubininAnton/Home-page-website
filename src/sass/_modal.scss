@@ -1,0 +1,69 @@
+.modalCity {
+    position: absolute;
+    width: 1180px;
+    height: 400px;
+    top: 110px;
+    left: calc(1920px/5.2);
+    background-color: white;
+    padding: 17px 20px 29px 20px;
+    span {
+        position: relative;
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+    &:before {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(-79deg, #27aae1 22%, #f7941d 116% );
+        transform: translate3d(1px, 9px, 0) scale(1.02);
+        filter: blur(10px);
+        opacity: var(0.52);
+        transition: opacity 0.3s;
+        border-radius: inherit;
+    }
+    
+    /* 
+    * Prevents issues when the parent creates a 
+    * stacking context. (For example, using the transform
+    * property )
+    */
+    &::after {
+        content: "";
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: inherit;
+        border-radius: inherit;
+    }
+    &__close {
+        position: absolute;
+        top: 21px;
+        right: 21px;
+        cursor: pointer;
+    }
+    &__grid {
+        display: grid;
+        width: 900px;
+        height: 300px;
+        grid-template-columns: repeat(5, 180px);
+        grid-template-rows: repeat(11, 27px);
+        grid-auto-flow: column;
+    }
+    &__city {
+        &:hover {
+            cursor: pointer;
+            text-decoration: underline;
+            color: darkblue;
+        }
+    }
+
+}

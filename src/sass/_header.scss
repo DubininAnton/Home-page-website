@@ -1,0 +1,93 @@
+.header {
+    position: relative;
+    height: 110px;
+    align-items: center;
+    display: flex;
+    margin: 0 370px 0 370px;
+    align-items: center;
+    justify-content: space-between;
+    &__wrapperAllCourses {
+        display: flex;
+        align-items: center;
+        height: 110px;
+    }
+    &__telephone {
+        font-size: 16px;
+        font-weight: normal;
+        color: darkblue;
+    }
+    &__enter {
+        position: relative;
+        font-weight: normal;
+        font-size: 14px;
+        color: #000000;
+        img {
+            width: 20px;
+            height: 20px;
+        }
+    }
+    &__logo {
+        width: 100px;
+        height: 70px;
+    }
+    &__allCourses {
+        position: relative;
+        a {
+            font-size: 14;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        &::before {
+            content: "";
+            width: 20px;
+            height: 7px;
+            border: solid 2px black;
+            border-radius: 2px;
+            position: absolute;
+            top: 2px;
+            left: -24px;  
+        }
+        &::after {
+            content: "";
+            width: 20px;
+            height: 7px;
+            border: solid 2px black;
+            border-radius: 2px;
+            position: absolute;
+            top: 10px;
+            left: -24px;  
+        }
+        
+    }
+    &__events {
+        cursor: pointer;
+    }
+    &__baseknowledge {
+        cursor: pointer;
+    }
+    &__city {
+       cursor: pointer;
+    }
+    &__wrapperCity {
+        display: flex;
+        align-items: center;
+        height: 110px;
+    }
+
+}
+
+.selectedButtom {
+    transition: .3s all;
+    border-bottom: 5px solid transparent ;
+    border-image: linear-gradient(45deg,#F7941D, #27AAE1);
+    border-image-slice: 1;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+
+
+
+

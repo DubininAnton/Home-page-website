@@ -1,0 +1,41 @@
+@import 'bootstrap-reboot.min';
+@import 'variables';
+@import 'mixins';
+@import 'header';
+@import 'modal';
+@import 'platform';
+@import 'program';
+@import 'reviews';
+@import 'dataCollection';
+@import 'footer';
+// @import 'slick';
+// @import 'slick-theme';
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-decoration: none;
+    &:hover {
+        color: #000000;
+    }
+}
+
+.container {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+body {
+    position: relative;
+    overflow: auto;
+}
+
+
+
+@import 'media';
+
+

@@ -1,0 +1,83 @@
+.platform {
+    position: relative;
+    height: 480px;
+    &__slider {
+        width: 100%;
+    }
+    &__rectangle {
+        width: 1032px;
+        height: 480px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    &__dotted {
+        position: absolute;
+        top: 20px;
+        left: 0px;
+    }
+    &__title {
+        position: absolute;
+        top: 126px;
+        left: 370px;
+        font-size: 36px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+    &__descr {
+        position: absolute;
+        top: 196px;
+        left: 370px;
+        font-size: 36px;
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+    &__descr2 {
+        position: absolute;
+        top: 281px;
+        left: 353px;
+        font-size: 20px;
+        font-weight: normal;
+        color: #FFFFFF;
+    }
+    &__vector01 {
+        position: absolute;
+        top: 229px;
+        left: 808px;
+    }
+    &__vector02 {
+        position: absolute;
+        top: 120px;
+        left: 1160px;
+    }
+    &__vector03 {
+        position: absolute;
+        top: 360px;
+        left: 159px;
+    }
+    &__vector04 {
+        position: absolute;
+        top: 35px;
+        left: 960px;
+    }
+    &__vector05 {
+        position: absolute;
+        top: 340px;
+        left: 642px;
+    }
+    &__vector06 {
+        position: absolute;
+        top: 73px;
+        left: 200px;
+    }
+    &__vector07 {
+        position: absolute;
+        top: 112px;
+        left: 1445px;
+    }
+    &__vector08 {
+        position: absolute;
+        top: 260px;
+        left: 1534px;
+    }
+}

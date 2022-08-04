@@ -1,0 +1,144 @@
+{
+  "cities": [
+    "Абакан",
+    "Азов",
+    "Александров",
+    "Алексин",
+    "Альметьевск",
+    "Анапа",
+    "Ангарск",
+    "Анжеро-Судженск",
+    "Апатиты",
+    "Арзамас",
+    "Армавир",
+    "Абакан",
+    "Азов",
+    "Александров",
+    "Алексин",
+    "Альметьевск",
+    "Анапа",
+    "Ангарск",
+    "Анжеро-Судженск",
+    "Апатиты",
+    "Арзамас",
+    "Армавир",
+    "Абакан",
+    "Азов",
+    "Александров",
+    "Алексин",
+    "Альметьевск",
+    "Анапа",
+    "Ангарск",
+    "Анжеро-Судженск",
+    "Апатиты",
+    "Арзамас",
+    "Армавир",
+    "Абакан",
+    "Азов",
+    "Александров",
+    "Алексин",
+    "Альметьевск",
+    "Анапа",
+    "Ангарск",
+    "Анжеро-Судженск",
+    "Апатиты",
+    "Арзамас",
+    "Армавир",
+    "Абакан",
+    "Азов",
+    "Александров",
+    "Алексин",
+    "Альметьевск",
+    "Анапа",
+    "Ангарск",
+    "Анжеро-Судженск",
+    "Апатиты",
+    "Арзамас",
+    "Армавир"
+  ],
+  "reviews": [
+    {
+      "title": "Имя Фамилия",
+      "photo": "./img/photo.png",
+      "status": "Студент курса «WEB-разработчик",
+      "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales, scelerisque eros non, ultrices magna. ",
+      "star": "./img/star.png",
+      "raiting": "4,87 / 5"
+    },
+    {
+      "title": "Имя Фамилия",
+      "photo": "./img/photo.png",
+      "status": "Студент курса «WEB-разработчик",
+      "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque. ",
+      "star": "./img/star.png",
+      "raiting": "4,87 / 5"
+    },
+    {
+      "title": "Имя Фамилия",
+      "photo": "./img/photo.png",
+      "status": "Студент курса «WEB-разработчик",
+      "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. ",
+      "star": "./img/star.png",
+      "raiting": "4,87 / 5"
+    },
+    {
+      "title": "Имя Фамилия",
+      "photo": "./img/photo.png",
+      "status": "Студент курса «WEB-разработчик",
+      "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales, scelerisque eros non, ultrices magna. ",
+      "star": "./img/star.png",
+      "raiting": "4,87 / 5"
+    },
+    {
+      "title": "Имя Фамилия",
+      "photo": "./img/photo.png",
+      "status": "Студент курса «WEB-разработчик",
+      "descr": "In hac habitasse platea dictumst. In ut dui sodales, scelerisque eros non, ultrices magna. ",
+      "star": "./img/star.png",
+      "raiting": "4,87 / 5"
+    },
+    {
+      "title": "Имя Фамилия",
+      "photo": "./img/photo.png",
+      "status": "Студент курса «WEB-разработчик",
+      "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales, scelerisque eros non, ultrices magna. ",
+      "star": "./img/star.png",
+      "raiting": "4,87 / 5"
+    },
+    {
+      "title": "Имя Фамилия",
+      "photo": "./img/photo.png",
+      "status": "Студент курса «WEB-разработчик",
+      "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales, scelerisque eros non, ultrices magna. ",
+      "star": "./img/star.png",
+      "raiting": "4,87 / 5"
+    },
+    {
+      "title": "Имя Фамилия",
+      "photo": "./img/photo.png",
+      "status": "Студент курса «WEB-разработчик",
+      "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius.  ",
+      "star": "./img/star.png",
+      "raiting": "4,87 / 5"
+    },
+    {
+      "title": "Имя Фамилия",
+      "photo": "./img/photo.png",
+      "status": "Студент курса «WEB-разработчик",
+      "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales, scelerisque eros non, ultrices magna. ",
+      "star": "./img/star.png",
+      "raiting": "4,87 / 5"
+    },
+    {
+      "title": "Имя Фамилия",
+      "photo": "./img/photo.png",
+      "status": "Студент курса «WEB-разработчик",
+      "descr": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut feugiat nisl at augue dapibus, id tristique lorem placerat. Curabitur pellentesque est bibendum urna facilisis varius. In hac habitasse platea dictumst. In ut dui sodales, scelerisque eros non, ultrices magna. ",
+      "star": "./img/star.png",
+      "raiting": "4,87 / 5"
+    }
+  ],
+  "database": [
+
+  ]
+}

@@ -1,0 +1,130 @@
+.dataCollection {
+    background-color: #E5E5E5;
+    height: 772px;
+    position: relative;
+    &__wrapper {
+        padding: 87px 370px 0 370px;
+        h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 60px;
+        }
+    }
+    &__flex {
+        display: flex;
+        justify-content: start;
+    }
+    &__item {
+        width: 280px;
+        img {
+            margin-bottom: 19px;
+        }
+        div {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+    &__filin {
+        position: absolute;
+        bottom: -105px;
+        left: 320px;
+        width: 276px;
+        height: 311px;
+    }
+    &__text {
+        position: absolute;
+        bottom: 0;
+        left: 602px;
+        width: 417px;
+        height: 190px;
+    }
+    &__descr {
+        width: 352px;
+        h2 {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+        div {
+            font-size: 16px;
+            font-weight: normal;
+        }
+        position: absolute;
+        bottom: 26px;
+        left: 656px;
+    }
+    &__rectangle {
+        width: 1180px;
+        height: 270px;
+        position: absolute;
+        bottom: -15px;
+        left: 370px;
+        background-color: #ffffff;
+        border-radius: 15px;
+    }
+    &__form {
+        position: absolute;
+        left: 1070px;
+        bottom: 0px;
+    }
+    &__name {
+        width: 440px;
+        height: 50px;
+        background-color: #ceced4;
+        font-size: 16px;
+        font-weight: normal;
+        border-radius: 10px;
+        &::placeholder { color: black };
+        margin-bottom: 20px;
+    }
+    &__telEmail {
+        width: 440px;
+        display: flex;
+        justify-content:space-between;
+        margin-bottom: 20px;
+    }
+    &__telephone {
+        width: 210px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: normal;
+        border-radius: 10px;
+        &::placeholder { color: black };
+        background-color: #ceced4;
+    }
+    &__email {
+        width: 210px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: normal;
+        border-radius: 10px;
+        &::placeholder { color: black };
+        background-color: #ceced4;
+    }
+    &__button {
+        display: flex;
+        justify-content: space-between;
+        width: 440px;
+        div {
+            width: 211px;
+            font-size: 10px;
+            font-weight: normal;
+        }
+        button {
+            width: 210px;
+            height: 50px;
+            border-radius: 10px;
+            background-color: orange;
+        }
+    }
+
+}
+
+#divEmail {
+    position: relative;
+}
+#labelForEmail {
+    position: absolute;
+    top: 47px;
+    left: 0px;
+}
